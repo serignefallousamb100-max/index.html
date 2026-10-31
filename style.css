@@ -71,6 +71,11 @@
     transform: rotate(0.3s);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .img-galerie {
   width: 100%;
   aspect-ratio: 5 / 5;
@@ -168,7 +173,47 @@
         color: green;
       }
 
+h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+}
+
+body {
+  font-size: 1rem;
+}
 
 
+/* Tablettes */
+@media (max-width: 992px) {
+  section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* Téléphones */
+@media (max-width: 576px) {
+  section {
+    padding: 2rem 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .cadre {
+    border-width: 4px;
+  }
+}
+
+/* Visiteurs qui ont désactivé les animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
 
       
