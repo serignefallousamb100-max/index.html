@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Redressed&display=swap');
+
+.navbar{
+    font-family: 'Merriweather', sans-serif;
+        position: sticky; top: 0;
+}
+
+ :root {
+        --corail: #ff6b6b;
+        color: green;
+        color: white;
+      }
+ 
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+     color: white !important;
+     font-weight: 500;
+    }
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+     color: var(--corail) !important;
+      }
+
+
+
+.navbar{
+    background-color: green;
+}
+
+.navbar .nav-link {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: var(--corail);
+}
+
+.navbar .nav-link.active {
+  color: #ff7f6b;
+}
+
+.nav-link{
+        color: aliceblue;
+      }
+      
+.titre-principal {
+        color: var(--corail);
+        font-weight: bold;
+        text-transform: uppercase;
+        border-left: 30px solid var(--corail);
+        border-right: 30px solid var(--corail);
+        padding-left: 15px;
+        background-color: green;
+        text-align: center;
+
+      }
+
+.titre-section {
+        color: green;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        transition: 0.3s;
+      }
+
+.titre-section:hover{
+    color:  #ff7f6b;
+    transform: rotate(0.3s);
+}
+
+.img-galerie {
+  width: 100%;
+  aspect-ratio: 5 / 5;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-galerie {
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.3s;
+        cursor: pointer;
+      }
+
+.img-galerie:hover {
+        transform: scale(1.03);
+      }
+
+.carte-service {
+        transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+        border: none;
+        border-top: 4px solid green;
+        text-decoration: none;
+        color: inherit;
+      }
+
+.carte-service:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        color: inherit;
+      }
+
+.btn-custom {
+        background-color: green;
+        color: white;
+        border: none;
+      }
+
+.btn-custom:hover {
+        background-color: green;
+        color: white;
+      }
+
+.btn-outline-custom {
+        border: 2px solid green;
+        color: green;
+        background: transparent;
+      }
+
+.btn-outline-custom:hover {
+        background-color: green;
+        color: white;
+      }
+
+.img-galerie {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s;
+        cursor: pointer;
+      }
+
+.img-galerie:hover {
+        transform: scale(1.03);
+      }
+
+.carte-realisation {
+        overflow: hidden;
+        border: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+.carte-realisation img {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.5s;
+      }
+
+.carte-realisation:hover img {
+        transform: scale(1.1);
+      }
+
+.footer-custom {
+        background-color: #222;
+        color: #ddd;
+      }
+
+.footer-custom a {
+        color: #ddd;
+        text-decoration: none;
+      }
+
+.footer-custom a:hover {
+        color: green;
+      }
+
+
+
+
+      
